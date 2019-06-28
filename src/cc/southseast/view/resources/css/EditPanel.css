@@ -1,0 +1,140 @@
+/*编辑面板*/
+#editPanel {
+    -fx-background-radius: 0 0 5 5;
+}
+
+/*按钮输入框和提示板的字体颜色*/
+.button, .text-field, .label {
+    -fx-text-fill: white;
+}
+
+/*保存按钮*/
+#saveButton {
+    -fx-background-color: #34b581;
+    -fx-cursor: hand;
+}
+
+/*退出按钮*/
+#quitButton {
+    -fx-background-color: #ff7675;
+    -fx-cursor: hand;
+}
+
+/*日期选择*/
+.date-picker > .text-field {
+    -fx-background-color: #202225;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.date-picker:focused > .text-field,
+.date-picker > .text-field:focused {
+    -fx-background-color: #202225;
+    -fx-border-width: 0;
+}
+
+.date-picker > .arrow-button {
+    -fx-background-color: #282b30;
+    -fx-scale-shape: true;
+}
+
+/*日历图标的背景颜色*/
+.date-picker > .arrow-button > .arrow {
+    -fx-background-color: white;
+}
+
+/*整个日历面板的背景*/
+.date-picker-popup > * > .spinner, .date-picker-popup > *, .date-picker-popup {
+    -fx-background-color: #282b30;
+}
+
+.date-picker-popup {
+    -fx-background-radius: 5;
+}
+
+.date-picker-popup > * > .day-name-cell,
+.date-picker-popup > * > .week-number-cell,
+.date-picker-popup > * > .day-cell {
+    -fx-text-fill: white;
+}
+
+.date-picker-popup > * > .previous-month.selected,
+.date-picker-popup > * > .next-month.selected {
+    -fx-background: #2f3136;
+}
+
+.date-picker-popup > * > .selected {
+    -fx-background: #4d4d4d;
+}
+
+.date-picker-popup > * > .day-cell:hover,
+.date-picker-popup > * > .previous-month:hover,
+.date-picker-popup > * > .next-month:hover {
+    -fx-background: #aaaaaa;
+}
+
+.date-picker-popup > * > .day-cell {
+
+    -fx-background: #36393f;
+    -fx-border-color: #36393f;
+}
+
+.date-picker-popup > * > .previous-month,
+.date-picker-popup > * > .next-month {
+
+    -fx-background: #3e4147;
+    -fx-border-color: #3e4147;
+}
+
+.date-picker-popup > * > .today.selected,
+.date-picker-popup > * > .selected {
+    -fx-background-color: #282b30;
+}
+
+.date-picker-popup > * > .today:hover,
+.date-picker-popup > * > .today {
+    -fx-background-color: #999999;
+
+}
+
+#backgroundImage {
+    -fx-background-image: url("../images/backgroundImage.gif");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #2f3136;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover {
+    -fx-background-color: #3e4147;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover {
+    -fx-background-color: #3e4147;
+    -fx-text-fill: white;
+}
+
+.combo-box-base {
+    -fx-background-color: #202225;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+}
+
+.button {
+    -fx-background-color: transparent;
+}
+
+#backgroundImage {
+    -fx-background-image: url("../images/backgroundImage.gif");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+}

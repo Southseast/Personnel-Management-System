@@ -1,0 +1,11 @@
+/*文字颜色*/
+.label {
+    -fx-text-fill: white;
+}
+
+/*背景图片*/
+#backgroundImage {
+    /*-fx-background-color: #000000;*/
+    -fx-background-image: url("../images/backgroundImage.gif");
+    -fx-background-size: 100%;
+}

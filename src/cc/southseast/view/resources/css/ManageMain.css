@@ -1,0 +1,77 @@
+#tableView {
+    -fx-table-cell-border-color: transparent;
+    /*-fx-border-color: #36393f;*/
+    /*-fx-border-color: white;*/
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+}
+
+/*边框*/
+.table-view
+    /*奇数列*/, .table-row-cell {
+    -fx-background-color: #3e4147;
+    /*-fx-background-color: white;*/
+    -fx-alignment: center-left;
+}
+
+/*每行内容*/
+.table-column {
+    -fx-alignment: center-left;
+    -fx-text-fill: white;
+}
+
+/*表头间隔*/
+.column-header-background
+    /*偶数列*/, .table-row-cell:odd
+    /*空闲的头*/, .filler
+    /*表头两边*/, .column-header
+    /*表头*/, .label {
+    /*-fx-background-color: #f2f3f3;*/
+    -fx-background-color: #36393f;
+    -fx-alignment: center-left;
+    -fx-text-fill: white;
+}
+
+/*表格边框*/
+.table-row-cell .table-cell {
+    -fx-border-width: 0;
+}
+
+/*选中*/
+.table-row-cell:selected {
+    -fx-background-color: #aaaaaa;
+    /*-fx-background-radius: 10;*/
+}
+
+/*.scroll-bar, .increment-button, .decrement-button{*/
+/*-fx-background-color: transparent;*/
+/*}*/
+
+#searchInput, #addButton, #searchButton, #batchDeleteButton {
+    -jfx-unfocus-color: transparent;
+    -jfx-focus-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-radius: 3;
+    -fx-border-color: transparent;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+#searchInput {
+    -fx-border-color: #36393f;
+    /*-fx-border-color: #f2f3f3;*/
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: white;
+}
+
+#searchButton {
+    -fx-background-color: #82ccdd;
+}
+
+#addButton {
+    -fx-background-color: #fad390;
+}
+
+#batchDeleteButton {
+    -fx-background-color: #ff7675;
+}

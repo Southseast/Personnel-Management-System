@@ -1,0 +1,39 @@
+/*关闭按钮*/
+#closeWindowsButton {
+    -fx-cursor: hand;
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-background-image: url("../images/close.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20;
+}
+
+#closeWindowsButton:hover {
+    -fx-background-image: url("../images/close_hover.png");
+}
+
+#closeWindowsButton:pressed {
+    -fx-background-image: url("../images/close_press.png");
+}
+
+/*最外层透明窗体*/
+#basePanel {
+    -fx-background-color: null;
+}
+
+/*基础窗体*/
+#root {
+    -fx-background-color: #202225;
+    -fx-background-radius: 5 5 5 5;
+    -fx-border-radius: 5 5 5 5;
+    -fx-effect: dropshadow(three-pass-box, #000000, 10, 0, 0, 0);
+}
+
+/*滚动条*/
+.scroll-bar, .increment-button, .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.thumb {
+    -fx-background-color: #202225;
+    -fx-background-radius: 100;
+}

@@ -1,0 +1,35 @@
+#loginPanel {
+    -fx-background-color: #202225;
+    -fx-background-radius: 0 0 5 5;
+}
+
+#loginId, #loginPassword {
+    -fx-font-size: 16;
+    -fx-prompt-text-fill: white;
+    -fx-text-fill: white;
+}
+
+#loginButton, #forgetPasswordButton {
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+#loginButton {
+    -fx-background-color: #2b2b2b;
+    -fx-font-size: 16;
+}
+
+#forgetPasswordButton {
+    -fx-border-width: 0;
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+
+#backgroundImage {
+    -fx-background-image: url("../images/backgroundImage.gif");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+}
+
+/*.radio-button {*/
+/*-fx-text-fill: white;*/
+/*}*/

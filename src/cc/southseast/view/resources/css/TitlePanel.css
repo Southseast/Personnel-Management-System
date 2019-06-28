@@ -1,0 +1,11 @@
+#title, #littleTitle {
+    -fx-text-fill: white;
+}
+
+#littleTitle {
+    -fx-font-size: 50;
+}
+
+#title {
+    -fx-font-size: 100;
+}

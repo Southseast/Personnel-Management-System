@@ -1,0 +1,22 @@
+#managePanel {
+
+    -fx-background-color: #2f3136;
+    -fx-background-radius: 0 0 5 5;
+}
+
+#chooseMain {
+
+    -fx-background-color: #282b30;
+    -fx-background-radius: 0 0 0 5;
+}
+
+#quitButton {
+    -fx-background-color: #ff7675;
+    -fx-cursor: hand;
+}
+
+#empManageButton, #depManageButton, #relManageButton, #quitButton, #helpButton {
+    -fx-text-fill: white;
+    -fx-border-width: 0;
+    -fx-background-radius: 5 0 0 5;
+}

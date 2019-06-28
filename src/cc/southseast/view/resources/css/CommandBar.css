@@ -1,0 +1,16 @@
+/*编辑删除按钮*/
+#editButton, #deleteButton {
+    -fx-border-width: 0;
+    -fx-background-radius: 3;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+#editButton {
+    -fx-background-color: #34b581;
+}
+
+#deleteButton {
+    -fx-background-color: #ff7675;
+    -fx-background-size: 100%;
+}
